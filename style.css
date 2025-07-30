@@ -1,0 +1,163 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  scroll-behavior: smooth;
+  background: transparent;
+}
+
+.background-image {
+  background-image: url("https://images.unsplash.com/photo-1499856871958-5b9627545d1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -2;
+  filter: blur(3px); 
+  transform: scale(1.05);
+}
+
+.background-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.section {
+  padding: 6rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 3rem;
+  text-align: center;
+  border-radius: 10px;
+  max-width: 700px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.section:first-of-type {
+  text-align: center;
+  padding-top: 10vh;
+}
+
+.section:first-of-type h1,
+.section:first-of-type p {
+  background: none;
+  padding: 0;
+  margin: 0.5rem 0;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+.hero-text {
+  text-align: center;
+  padding-top: 20vh;
+}
+
+.hero-heading h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  color: white;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+.hero-heading p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #ddd;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}
+
+.landmark-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 350px; 
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  flex-wrap: wrap;
+}
+
+.landmark-card.reverse {
+  flex-direction: row-reverse;
+}
+
+.landmark-card img {
+  width: 100%;
+  max-width: 400px;
+  height: 250px;   
+  object-fit: cover;  
+  border-radius: 10px;
+}
+
+.text {
+  flex: 1;
+  max-width: 500px;
+}
+
+
+.text {
+  max-width: 500px;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .landmark-card {
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+
+  .text {
+    text-align: center;
+  }
+}
