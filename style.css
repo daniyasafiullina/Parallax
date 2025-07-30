@@ -50,7 +50,7 @@ body, html {
 
 h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 5rem;
+  font-size: 6rem;
   margin-bottom: 1rem;
 }
 
@@ -81,11 +81,6 @@ p {
 .hero-text {
   text-align: center;
   padding-top: 20vh;
-}
-
-.hero {
-  min-height: auto;
-  padding-bottom: 2rem; 
 }
 
 .hero-heading h1 {
