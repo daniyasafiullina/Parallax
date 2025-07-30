@@ -83,6 +83,11 @@ p {
   padding-top: 20vh;
 }
 
+.hero {
+  min-height: auto;
+  padding-bottom: 2rem; 
+}
+
 .hero-heading h1 {
   font-family: 'Playfair Display', serif;
   font-size: 3.5rem;
@@ -145,7 +150,7 @@ p {
 
 .header-text {
   padding: 4rem 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 
