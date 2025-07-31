@@ -67,7 +67,7 @@ p {
 
 .section:first-of-type {
   text-align: center;
-  padding-top: 10vh;
+  padding-top: 2 rem;
 }
 
 .section:first-of-type h1,
