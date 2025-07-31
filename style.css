@@ -149,6 +149,40 @@ p {
   margin-bottom: 6rem;
 }
 
+.hero-section {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 5rem 2rem 0;
+  position: relative;
+}
+
+.hero-text {
+  padding: 6rem 2rem 4rem;
+  z-index: 1;
+  position: relative;
+}
+
+.curve-divider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.curve-divider::after {
+  content: "";
+  display: block;
+  background: white;
+  height: 100px;
+  width: 120%;
+  border-radius: 0 0 50% 50%;
+  transform: translateY(50%);
+}
+
+
 
 @media screen and (max-width: 768px) {
   h1 {
