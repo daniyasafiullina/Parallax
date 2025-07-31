@@ -148,7 +148,7 @@ p {
 .hero-section {
   background-color: black;
   color: white;
-  height: 60vh;
+  height: 75vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -156,7 +156,7 @@ p {
   position: relative;
   text-align: center;
   padding: 2rem;
-  padding-bottom: 4rem;
+  padding-bottom: 6rem;
   border-bottom-left-radius: 100% 40%;
   border-bottom-right-radius: 100% 40%;
   overflow: hidden;
