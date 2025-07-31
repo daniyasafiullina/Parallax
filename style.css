@@ -82,7 +82,7 @@ p {
 
 .hero-heading h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 3.5rem;
+  font-size: 5rem;
   color: white;
   margin-bottom: 0.5rem;
   text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
@@ -163,6 +163,14 @@ p {
 }
 
 .hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.hero-text {
   padding: 4rem 2rem 2rem;
   position: relative;
   z-index: 1;
@@ -171,12 +179,12 @@ p {
 
 .hero-text h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 3.5rem;
+  font-size: 5rem;
   margin-bottom: 0.5rem;
 }
 
 .hero-text .subtitle {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
 }
 
@@ -185,6 +193,7 @@ p {
   max-width: 700px;
   line-height: 1.6;
   margin: 0 auto;
+  margin-top: 2rem; 
 }
 
 .hero-text p {
