@@ -213,9 +213,9 @@ p {
 }
 
 .scroll-arrow {
-  font-size: 4rem;
+  font-size: 8rem;
   color: #fff;
-  margin-top: 4rem;
+  margin-top: 8rem;
   animation: bounce 2s infinite;
   opacity: 0.7;
 }
