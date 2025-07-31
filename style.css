@@ -67,7 +67,7 @@ p {
 
 .section:first-of-type {
   text-align: center;
-  padding-top: 2 rem;
+  padding-top: 2rem;
 }
 
 .section:first-of-type h1,
@@ -152,7 +152,7 @@ p {
 
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   h2 {
