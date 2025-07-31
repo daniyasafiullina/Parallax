@@ -157,8 +157,8 @@ p {
   text-align: center;
   padding: 2rem;
   padding-bottom: 6rem;
-  border-bottom-left-radius: 100% 20%;
-  border-bottom-right-radius: 100% 20%;
+  border-bottom-left-radius: 100% 40%;
+  border-bottom-right-radius: 100% 40%;
   overflow: hidden;
 }
 
