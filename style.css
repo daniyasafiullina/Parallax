@@ -150,19 +150,35 @@ p {
 }
 
 .hero-section {
-  background-color: #000;
+  background-color: black;
   color: white;
   text-align: center;
-  padding: 5rem 2rem 0;
+  padding: 4rem 2rem 0;
   position: relative;
+  overflow: hidden;
 }
 
 .hero-text {
-  padding: 6rem 2rem 4rem;
-  z-index: 1;
+  padding: 4rem 2rem 2rem;
   position: relative;
+  z-index: 1;
+  transform: translateY(-30px); 
 }
 
+.hero-text h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem; 
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #ddd;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+  margin: 0;
+}
 .curve-divider {
   position: absolute;
   bottom: 0;
@@ -175,15 +191,15 @@ p {
 .curve-divider::after {
   content: "";
   display: block;
-  background: white;
-  height: 100px;
   width: 120%;
+  height: 100px;
+  background: white;
   border-radius: 0 0 50% 50%;
   transform: translateY(50%);
 }
 
 .landmarks-background {
-  background-image: url('your-image.jpg'); /* Your background image */
+  background-image: url('your-image.jpg'); 
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
