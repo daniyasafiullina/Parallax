@@ -66,11 +66,6 @@ p {
   line-height: 1.6;
 }
 
-.section:first-of-type {
-  text-align: center;
-  padding-top: 2rem;
-}
-
 .section:first-of-type h1,
 .section:first-of-type p {
   background: none;
