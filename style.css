@@ -53,12 +53,14 @@ h1 {
   font-family: 'Playfair Display', serif;
   font-size: 12rem;
   margin-bottom: 1rem;
+  color: pink;
 }
 
 h2 {
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
   margin-bottom: 1rem;
+  color: pink;
 }
 
 p {
