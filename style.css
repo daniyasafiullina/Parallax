@@ -33,7 +33,7 @@ body, html {
 }
 
 .section {
-  padding: 3rem 2rem;
+  padding: 2rem 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
